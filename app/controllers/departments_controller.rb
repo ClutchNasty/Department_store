@@ -37,7 +37,7 @@ class DepartmentsController < ApplicationController
   def destroy
     @department.destroy
     redirect_to departments_path
-  endqi
+  end
 
   private
     
